@@ -20,6 +20,9 @@ lazy_static = "1"
 tracing = "0.1"
 tracing-subscriber = "0.3"
 async-channel = "1.9.0"
+axum = "0.6.20"
+serde = "1.0.188"
+reqwest = "0.11.20"
 
 
 [profile.release]

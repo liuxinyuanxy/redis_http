@@ -1,26 +1,16 @@
 ### Intro
 
-A mini-redis, supporting `get`, `set (with ttl)`, `del`, `publish`, `subscribe`.
+A mini-redis http_server, supporting `get`, `set (with ttl)`, `del`.
 
 
-### How to build
-
-```bash
-cargo update
-cargo build
-```
-
-### How to run
+### quick to start
 
 ```bash
 cargo run --bin server
-cargo run --bin client
+cargo run --bin http_server
 ```
 
-### Usage
-
-Type `help` in client will get the command list.
-
-### A demo:
-
-https://drive.google.com/file/d/1fWt8WPO9Jb0G5f9cSlnGq--41fDuBoKy/view?usp=sharing
+Then you can test with 
+```bash
+cargo run --bin http_client
+```
